@@ -1,4 +1,4 @@
-import { Module, OnModuleInit } from '@nestjs/common';
+/*import { Module, OnModuleInit } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { SeedService } from './seed.service';
 import { Task } from './tasks/tasks.entity';
@@ -19,4 +19,4 @@ export class SeedModule implements OnModuleInit {
       console.error('Failed to seed data', error);
     }
   }
-}
+}*/

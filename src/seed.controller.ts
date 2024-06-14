@@ -1,4 +1,4 @@
-import { Controller, Post } from '@nestjs/common';
+/*import { Controller, Post } from '@nestjs/common';
 import { SeedService } from './seed.service';
 
 @Controller('seed')
@@ -14,4 +14,4 @@ export class SeedController {
       return { error: 'Failed to seed data', details: error.message };
     }
   }
-}
+}*/

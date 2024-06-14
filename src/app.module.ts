@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Task } from './tasks/tasks.entity';
 import { TasksModule } from './tasks/tasks.module';
-import { SeedModule } from './seed.module';
+//import { SeedModule } from './seed.module';
 
 @Module({
   imports: [
@@ -13,7 +13,7 @@ import { SeedModule } from './seed.module';
       synchronize: true,
     }),
     TasksModule,
-    SeedModule,
+    //SeedModule,
   ],
 })
 export class AppModule {}

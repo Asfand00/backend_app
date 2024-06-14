@@ -1,4 +1,4 @@
-import { Injectable, Logger } from '@nestjs/common';
+/*import { Injectable, Logger } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Task } from './tasks/tasks.entity';
@@ -26,6 +26,6 @@ export class SeedService {
 
     this.logger.log('Seeding complete');
   }
-}
+}*/
 
 

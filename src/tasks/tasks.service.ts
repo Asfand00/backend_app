@@ -19,6 +19,7 @@ export class TasksService {
 
     findOne(id: number): Task {
         this.logger.log(`Fetching task with ID ${id}`);
+        console.log(typeof id)
         const task = this.tasks.find(task => task.id === id);
         if (!task) {
             throw new NotFoundException(`Task with ID ${id} not found`);
